@@ -30,7 +30,7 @@ public final class FileWriterStream {
         }
     }
 
-    public final void writeJSON(final String json) {
+    public final void writeJsonFile(final String json) {
         try (final FileWriter fileWriter = new FileWriter(this.file)) {
             fileWriter.write(json);
 

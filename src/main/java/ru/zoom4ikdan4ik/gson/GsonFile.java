@@ -46,21 +46,21 @@ public class GsonFile {
 
     public final Object fromJsonToObject(@NotNull final Object object, final boolean rewrite) {
         if (rewrite || !this.file.exists() || this.file.length() <= 0)
-            this.writeJSON(this.gson.toJson(object));
+            this.writeJsonFile(this.gson.toJson(object));
 
-        return this.gson.fromJson(this.getJSONFromFile(), object.getClass());
+        return this.gson.fromJson(this.getJsonFile(), object.getClass());
     }
 
-    public final String getJSONFromFile() {
-        return this.fileReaderStream.getJSONFromFile();
+    public final String getJsonFile() {
+        return this.fileReaderStream.getJsonFile();
     }
 
-    public final void writeJSON(@NotNull final Object object) {
-        this.writeJSON(this.gson.toJson(object));
+    public final void writeJsonFile(@NotNull final Object object) {
+        this.writeJsonFile(this.gson.toJson(object));
     }
 
-    public final void writeJSON(@NotNull final String json) {
-        this.fileWriterStream.writeJSON(json);
+    public final void writeJsonFile(@NotNull final String json) {
+        this.fileWriterStream.writeJsonFile(json);
     }
 
     public final File getFile() {

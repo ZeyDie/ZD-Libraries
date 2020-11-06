@@ -33,10 +33,10 @@ public final class FileReaderStream {
         }
     }
 
-    public final String getJSONFromFile() {
+    public final String getJsonFile() {
         final StringBuilder json = new StringBuilder();
 
-        for (String string : this.getLines())
+        for (final String string : this.getLines())
             json.append(string).append("\n");
 
         return json.toString();
