@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public final class PathSystem {
-    public static final Path getPathLibrary() {
+    public static Path getPathLibrary() {
         final URL location = PathSystem.class.getProtectionDomain().getCodeSource().getLocation();
 
         try {

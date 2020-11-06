@@ -1,11 +1,11 @@
 package ru.zoom4ikdan4ik.annotations;
 
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
 import ru.zoom4ikdan4ik.annotations.exceptions.AnnotationReaderException;
 
 import java.lang.annotation.Annotation;
 
-public final class AnnotationReader {
+public class AnnotationReader {
     private final Class<?> clazz;
     private final Annotation annotation;
 
