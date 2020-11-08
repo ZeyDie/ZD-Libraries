@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0938fb9d-1711-48d8-a9f7-e68a7a590dad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZD-Libraries.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotations/zd-annotations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gson-reader/zd-gson-reader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems/zd-systems.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/annotations/AnnotationReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/annotations/exceptions/AnnotationReaderException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/gson/GsonFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/gson/streams/FileReaderStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/gson/streams/FileWriterStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/systems/OperatingSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/systems/PathSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/systems/enums/BitType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/systems/enums/OSType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/zoom4ikdan4ik/systems/exceptions/OperatingSystemException.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k0olJLMmofYFvtdfVmRczjwj0W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16894531" />
+    <property name="project.structure.side.proportion" value="0.2048611" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0938fb9d-1711-48d8-a9f7-e68a7a590dad" name="Default Changelist" comment="" />
+      <created>1604847020870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604847020870</updated>
+      <workItem from="1604847022027" duration="802000" />
+      <workItem from="1604847831591" duration="228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604848044781">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604848044781" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1604848059080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604848059080" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1604848059080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604848059080" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1604848059080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604848059080" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1604848059080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604848059080" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1604847444855">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604847444855" />
+  </component>
+</project>

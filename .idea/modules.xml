@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZD-Libraries.iml" filepath="$PROJECT_DIR$/ZD-Libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/zd-annotations.iml" filepath="$PROJECT_DIR$/annotations/zd-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gson-reader/zd-gson-reader.iml" filepath="$PROJECT_DIR$/gson-reader/zd-gson-reader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/systems/zd-systems.iml" filepath="$PROJECT_DIR$/systems/zd-systems.iml" />
+    </modules>
+  </component>
+</project>

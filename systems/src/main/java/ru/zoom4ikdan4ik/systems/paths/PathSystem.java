@@ -1,4 +1,4 @@
-package ru.zoom4ikdan4ik.systems;
+package ru.zoom4ikdan4ik.systems.paths;
 
 import java.net.URI;
 import java.net.URISyntaxException;
