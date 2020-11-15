@@ -1,5 +1,6 @@
 package ru.zoom4ikdan4ik.systems.enums;
 
+import org.jetbrains.annotations.NotNull;
 import ru.zoom4ikdan4ik.systems.exceptions.OperatingSystemException;
 
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ public enum ArchitectureType {
         this.contains = new ArrayList<>(Arrays.asList(args));
     }
 
+    @NotNull
     public static ArchitectureType getArchitecture() throws OperatingSystemException {
         final String architecture = System.getProperty("os.arch").toLowerCase();
 
@@ -27,6 +29,7 @@ public enum ArchitectureType {
         throw new OperatingSystemException("Unnamed architecture with name: " + architecture);
     }
 
+    @NotNull
     public final List<String> getContains() {
         return this.contains;
     }

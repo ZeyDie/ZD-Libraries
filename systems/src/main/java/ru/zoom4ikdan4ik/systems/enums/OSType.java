@@ -1,5 +1,6 @@
 package ru.zoom4ikdan4ik.systems.enums;
 
+import org.jetbrains.annotations.NotNull;
 import ru.zoom4ikdan4ik.systems.exceptions.OperatingSystemException;
 
 import java.util.ArrayList;
@@ -18,6 +19,7 @@ public enum OSType {
         this.contains = new ArrayList<>(Arrays.asList(args));
     }
 
+    @NotNull
     public static OSType getOS() throws OperatingSystemException {
         final String os = System.getProperty("os.name").toLowerCase();
 

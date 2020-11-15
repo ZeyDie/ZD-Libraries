@@ -1,5 +1,6 @@
 package ru.zoom4ikdan4ik.systems.paths.streams;
 
+import org.jetbrains.annotations.NotNull;
 import ru.zoom4ikdan4ik.systems.paths.enums.PathRuleType;
 
 import java.io.File;
@@ -23,6 +24,7 @@ public final class PathStream {
         this.file = file;
     }
 
+    @NotNull
     public final List<File> getFiles(final PathRuleType pathRuleType) {
         final List<File> fileList = new ArrayList<>();
 
@@ -30,7 +32,6 @@ public final class PathStream {
             case ALL: {
                 final File[] tempFiles = this.file.listFiles();
 
-                
 
                 break;
             }

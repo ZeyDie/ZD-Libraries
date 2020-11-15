@@ -1,5 +1,6 @@
 package ru.zoom4ikdan4ik.gson.streams;
 
+import org.jetbrains.annotations.NotNull;
 import ru.zoom4ikdan4ik.gson.GsonFile;
 
 import java.io.File;
@@ -33,6 +34,7 @@ public final class FileReaderStream {
         }
     }
 
+    @NotNull
     public final String getJsonFile() {
         final StringBuilder json = new StringBuilder();
 
@@ -42,6 +44,7 @@ public final class FileReaderStream {
         return json.toString();
     }
 
+    @NotNull
     public final List<String> getLines() {
         final List<String> lines = new ArrayList<>();
 

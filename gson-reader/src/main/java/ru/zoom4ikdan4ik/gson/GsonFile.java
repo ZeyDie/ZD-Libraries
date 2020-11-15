@@ -10,9 +10,9 @@ import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class GsonFile {
+public class GsonFile extends GsonBase {
     private File file;
-    private Gson gson;
+
     private FileReaderStream fileReaderStream;
     private FileWriterStream fileWriterStream;
 
@@ -33,36 +33,46 @@ public class GsonFile {
     }
 
     public GsonFile(@NotNull final File file, @NotNull final Gson gson) {
+        super(gson);
+
         this.file = file;
-        this.gson = gson;
 
         this.fileReaderStream = new FileReaderStream(this);
         this.fileWriterStream = new FileWriterStream(this);
     }
 
+    @NotNull
     public final Object fromJsonToObject(@NotNull final Object object) {
         return this.fromJsonToObject(object, false);
     }
 
+    @NotNull
     public final Object fromJsonToObject(@NotNull final Object object, final boolean rewrite) {
-        if (rewrite || !this.file.exists() || this.file.length() <= 0)
-            this.writeJsonFile(this.gson.toJson(object));
+        if (rewrite || !this.file.exists() || this.file.length() <= 0) {
+            final String json = this.fromObjectToJson(object);
 
-        return this.gson.fromJson(this.getJsonFile(), object.getClass());
+            this.writeJsonFile(json);
+        }
+
+        return this.fromJsonToObject(this.getJsonFile(), object);
     }
 
+    @NotNull
     public final String getJsonFile() {
         return this.fileReaderStream.getJsonFile();
     }
 
     public final void writeJsonFile(@NotNull final Object object) {
-        this.writeJsonFile(this.gson.toJson(object));
+        final String json = this.fromObjectToJson(object);
+
+        this.writeJsonFile(json);
     }
 
     public final void writeJsonFile(@NotNull final String json) {
         this.fileWriterStream.writeJsonFile(json);
     }
 
+    @NotNull
     public final File getFile() {
         return this.file;
     }
@@ -80,13 +90,5 @@ public class GsonFile {
 
         this.fileReaderStream = new FileReaderStream(this);
         this.fileWriterStream = new FileWriterStream(this);
-    }
-
-    public final void setGson(@NotNull final GsonBuilder gsonBuilder) {
-        this.setGson(gsonBuilder.create());
-    }
-
-    public final void setGson(@NotNull final Gson gson) {
-        this.gson = gson;
     }
 }
